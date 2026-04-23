@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+.next/
+.vercel/
+out/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# Logs (keep the file in dev, don't commit)
+backend/logs/*.jsonl
+
+# Podcast data — NOT distributed with the repo.
+# Transcripts are someone else's content; the index is derived from them.
+# Users bring their own transcripts and run `python -m indexing.build_index`
+# to regenerate these locally. See README for details.
+backend/data/transcripts/
+backend/data/index/
+backend/data/episodes.json
+backend/data/utterances.json
+backend/data/matches.json
+
+# Temp
+/tmp/
+*.log

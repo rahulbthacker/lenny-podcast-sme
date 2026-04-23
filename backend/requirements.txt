@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+sse-starlette
+pydantic
+python-dotenv
+feedparser
+rapidfuzz
+fastembed
+lancedb
+pyarrow
+google-generativeai
+anthropic
+slowapi
+numpy
+
